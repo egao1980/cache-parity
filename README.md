@@ -15,7 +15,7 @@ ros -e '(asdf:test-system "cache-parity")' -q
 Live:
 
 ```bash
-docker compose up -d
+docker compose up --wait
 ros -e '(asdf:test-system "cache-parity")' -q
 ```
 
